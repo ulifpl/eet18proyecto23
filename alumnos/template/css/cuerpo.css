@@ -42,6 +42,10 @@ body {
     letter-spacing: 1px;
     padding-left: 15px;
 }
+.items-dashboard > a:active {
+    background-color: #905d4a;
+    color: #fff;
+}
 .line-div {
     height: 1px;
     display: flex;
