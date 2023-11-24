@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: 0;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+header {
+    background-color: bisque;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    height: 100px;
+}
+.header-container {
+    
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.logo-container > a > img{
+    box-shadow: 0 0 20px #0009;
+    border-radius: 50%;
+    width: 60px;
+}
